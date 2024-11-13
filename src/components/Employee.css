@@ -1,0 +1,124 @@
+.tableElement{
+
+    margin-left: -1000000%;
+    border-right: solid;
+}
+
+/* Clase CSS para un input estilizado */
+.stylish-input {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    max-width: 300px; /* Limita el ancho máximo */
+    padding: 10px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    background-color: #f7f7f7; /* Color de fondo */
+    border: 2px solid #ddd; /* Borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    outline: none; /* Sin borde de enfoque */
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  .stylish-input:focus {
+    border-color: #3498db; /* Borde azul al enfocarse */
+    background-color: #fff; /* Fondo blanco al enfocarse */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3); /* Sombra suave */
+  }
+
+  /* Clase CSS para el botón estilizado */
+.stylish-button {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #fff; /* Color del texto */
+    background-color: #3498db; /* Color de fondo */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: all 0.3s ease; /* Transición suave */
+    margin-left: 10px; /* Espacio entre el input y el botón */
+  }
+  
+  .stylish-button:hover {
+    background-color: #2980b9; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .stylish-button:active {
+    transform: scale(0.98); /* Pequeña reducción al hacer clic */
+  }
+  
+  /* Ajustes adicionales para alinear el input y el botón en una sola fila */
+  .input-button-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+/* Contenedor de la tabla */
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos de la tabla */
+  .tableElement {
+    width: 100%;
+    border-collapse: collapse; /* Usar 'collapse' para bordes sólidos */
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    
+  }
+
+  .tableElement thead tr {
+    background-color: #3498db; /* Azul para encabezado */
+    color: #ffffff; /* Texto blanco para encabezado */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .tableElement th,
+.tableElement td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid #ddd; /* Bordes grises para celdas */
+}
+
+/* Filas alternadas */
+.tableElement tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo claro en filas pares */
+  }
+
+  .tableElement tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Fondo blanco en filas impares */
+  }
+
+  .tableElement tbody tr:hover {
+    background-color: #e1f5fe;
+    transition: background-color 0.3s ease;
+  }
+
+  .tableElement th,
+.tableElement td {
+  font-size: 16px;
+  color: #333333; /* Color oscuro para el texto */
+}
+
+.tableElement th, 
+.tableElement td {
+  border: 1px solid #333333; /* Bordes oscuros para visibilidad */
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
